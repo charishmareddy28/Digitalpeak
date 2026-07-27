@@ -4,7 +4,7 @@ import { FaArrowTrendUp } from "react-icons/fa6";
 
 const Home = () => {
 	return (
-		<div className="flex items-start flex-col w-1/2 gap-y-6">
+		<div className="flex items-start flex-col w-1/2 gap-y-6 p-4">
 			<p className="border px-2 border-emerald-600 rounded-2xl text-emerald-800 bg-emerald-300 font-semibold">
 				Performance-Driven digital experience
 			</p>
