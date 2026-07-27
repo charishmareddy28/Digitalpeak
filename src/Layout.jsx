@@ -11,7 +11,7 @@ const Layout = () => {
 	const contactref = useRef(null);
 	return (
 		<div className="bg-black text-white h-screen overflow-auto">
-			<div className="bg-[url('./bg.jpg')] p-10 bg-no-repeat bg-cover bg-center">
+			<div className="bg-[url('/bg.jpg')] bg-cover bg-center bg-no-repeat">
 				<Nav servicesRef={servicesRef} Pricingref={Pricingref} contactref= {contactref} />
 				<Home />
 				<Services servicesRef={servicesRef} />
